@@ -7,26 +7,56 @@
     background-color: rgb(0, 255, 255);
 }
 /*conteúdo do cabeçalho*/
-.head-content {
-    width: 70%;
+.name-and-foto {
+    width: 90%;
     margin: auto;
+    margin-bottom: 100px;
+}
+
+.name-and-foto h1{
+    padding: 10px 0px 5px 10px;
+    text-align: center;
     
 }
 
-.head-content h1{
-    padding: 10px 0px 5px 10px;
-}
-
-.head-content h2 {
+.name-and-foto h2 {
     padding: 10px 0px 30px 10px;
+    text-align: center;
+    
 }
 
-.img-head{
+.img img{
     padding: 5px;
-    width: 200px;
-    margin-left: 30%;
+    width: 300px;
     /*moldura da foto*/
     background-color: aliceblue;
-    
+    text-align: left;
+
+ 
 }
 
+.description {
+    text-align: justify;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.habilidades{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.habilidades .perfil-linkedin h3 {
+    margin: 10px;
+}
+
+.perfil-linkedin{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    
+}
