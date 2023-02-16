@@ -1,6 +1,7 @@
 * {
     padding: 0; 
     margin: 0;
+    
 }
 /*caixa principal do portfolio*/
 .conteiner {
@@ -26,13 +27,13 @@
 }
 
 .img img{
-    /*padding: 5px;*/
+    padding: 5px;
     width: 300px;
     /*moldura da foto*/
     background-color: aliceblue;
     text-align: left;
     display: inline-block;
-   
+    border-radius: 50px;
  
 }
 
@@ -41,7 +42,8 @@
     font-size: 25px;
     display: inline-block;
     position: absolute;
-    padding: 20px;
+    margin-left: 20px;
+    
 
 }
 
