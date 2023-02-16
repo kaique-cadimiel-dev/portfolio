@@ -26,12 +26,13 @@
 }
 
 .img img{
-    padding: 5px;
+    /*padding: 5px;*/
     width: 300px;
     /*moldura da foto*/
     background-color: aliceblue;
     text-align: left;
-
+    display: inline-block;
+   
  
 }
 
@@ -39,7 +40,8 @@
     text-align: justify;
     font-size: 25px;
     display: inline-block;
-    margin-left: 20px;
+    position: absolute;
+    padding: 20px;
 
 }
 
